@@ -1,0 +1,172 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: #6c6b6b;
+}
+
+a{
+  text-decoration: none;
+}
+
+header{
+  width: 100%;
+  padding: 50px;
+  background-color: #ff8c00;
+}
+
+main{
+  width: 100%;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.step1{
+  position: relative;
+  width: 80%;
+  height: 600px;
+  margin-left: 10%;
+text-align: center;
+padding: 10px;
+  background-color: #9c9b9b;
+}
+.step1-heading{
+  position: absolute;
+width: 10%;
+height: 30px;
+top: 0;
+  background-color: #ff8c00;
+  color: white;
+}
+
+.step1-img{
+  width: 100%;
+  height: 60%;
+}
+
+.step1-item{
+ width: 100%;
+ left: 0;
+}
+
+.step1-text-heading{
+  position: absolute;
+  text-align: left;
+  width: 100%;
+  top: 65%;
+  left: 0;
+  font-size: 19px;
+  color: black;
+}
+
+.step2{
+  position: relative;
+  width: 80%;
+  height: 600px;
+  margin-left: 10%;
+  margin-top: 20px;
+text-align: center;
+padding: 10px;
+  background-color: #9c9b9b;
+}
+
+.step2-heading{
+  position: absolute;
+width: 10%;
+height: 30px;
+top: 0;
+  background-color: #ff8c00;
+  color: white;
+}
+
+.step2-img{
+  width: 100%;
+  height: 60%;
+}
+
+.step2-item{
+ width: 100%;
+ left: 0;
+}
+
+.step2-text-heading{
+  position: absolute;
+  text-align: left;
+  width: 100%;
+  top: 65%;
+  left: 0;
+  font-size: 19px;
+  color: black;
+}
+
+.step3{
+  position: relative;
+  width: 80%;
+  height: 600px;
+  margin-left: 10%;
+  margin-top: 20px;
+text-align: center;
+padding: 10px;
+  background-color: #9c9b9b;
+}
+
+.step3-heading{
+  position: absolute;
+width: 10%;
+height: 30px;
+top: 0;
+  background-color: #ff8c00;
+  color: white;
+
+}
+
+.step3-img{
+  width: 100%;
+  height: 60%;
+}
+
+
+.step3-item{
+ width: 100%;
+ left: 0;
+}
+
+.step3-text-heading{
+  position: absolute;
+  text-align: left;
+  width: 100%;
+  top: 65%;
+  left: 0;
+  font-size: 19px;
+  color: black;
+}
+
+p{
+  font-size: 30px;
+  padding-left: 20px;
+  color: black;
+
+}
+footer{
+  width: 100%;
+  padding: 50px;
+  background-color: #9c9b9b;
+}
+
+@media screen and (max-width:768px){
+  header{
+    width: 100%;
+  }
+
+main{
+  width: 100%;
+}
+
+.step1{
+  width: 80%;
+  height: 600px;
+}
+
+footer{
+  width: 100%;
+}
